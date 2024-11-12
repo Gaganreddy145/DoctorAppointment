@@ -1,0 +1,75 @@
+/* Banner.css */
+.banner {
+  width: 100%;
+  background-color: #6e84f5;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.banner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.banner-nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.create-account-btn {
+  background-color: #ffffff;
+  color: #6e84f5;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.banner-text {
+  max-width: 50%;
+}
+
+.banner-text h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 0 20px;
+}
+
+.banner-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.book-appointment-btn {
+  background-color: #ffffff;
+  color: #6e84f5;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.banner-image {
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+}

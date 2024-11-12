@@ -1,0 +1,107 @@
+.doctor-list {
+  font-family: Arial, sans-serif;
+}
+
+.doctor-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.doctor-list-nav a {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.doctor-list-nav a.active,
+.doctor-list-nav a:hover {
+  color: #007bff;
+}
+
+.create-account-btn {
+  padding: 8px 15px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.doctor-list-content {
+  display: flex;
+  padding: 20px;
+}
+
+.specialty-filters {
+  flex: 0 0 200px;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.specialty-filters button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.specialty-filters button:hover {
+  background-color: #e0e0e0;
+}
+
+.doctors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 20px;
+  flex: 1;
+}
+
+.doctor-card {
+  width: 180px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.doctor-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.doctor-info {
+  text-align: center;
+}
+
+.status {
+  color: green;
+  font-weight: bold;
+}
+
+.doctor-info h3 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.doctor-info p {
+  color: #666;
+}

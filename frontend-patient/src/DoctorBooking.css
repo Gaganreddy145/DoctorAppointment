@@ -1,0 +1,138 @@
+.doctor-booking {
+  font-family: Arial, sans-serif;
+}
+
+.doctor-booking-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.doctor-booking-nav a {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.doctor-booking-nav a.active,
+.doctor-booking-nav a:hover {
+  color: #007bff;
+}
+
+.create-account-btn {
+  padding: 8px 15px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.doctor-profile {
+  display: flex;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.doctor-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.doctor-info h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.verified-badge {
+  color: #007bff;
+  font-size: 18px;
+}
+
+.experience {
+  font-size: 14px;
+  background-color: #eee;
+  padding: 2px 6px;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: #666;
+}
+
+.about-text {
+  color: #666;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.booking-section {
+  margin: 20px;
+}
+
+.days {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.day {
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.day.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.time-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.slot {
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+}
+
+.slot.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.book-appointment-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
